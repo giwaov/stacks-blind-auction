@@ -17,7 +17,7 @@ import {
 } from "@stacks/transactions";
 
 // Contract details - update after deployment
-const CONTRACT_ADDRESS = "ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM"; // Replace with your address
+const CONTRACT_ADDRESS = "SP3E0DQAHTXJHH5YT9TZCSBW013YXZB25QFDVXXWY"; // Deployed on mainnet
 const CONTRACT_NAME = "blind-auction";
 
 // App config
@@ -63,7 +63,7 @@ export function StacksProvider({ children }: { children: ReactNode }) {
   const [address, setAddress] = useState<string | null>(null);
   
   // Use testnet for development
-  const network = new StacksTestnet();
+  const network = new StacksMainnet();
 
   useEffect(() => {
     if (userSession.isUserSignedIn()) {
