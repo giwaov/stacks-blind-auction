@@ -1,0 +1,9 @@
+[project]
+name = "stacks-blind-auction"
+description = "Decentralized sealed-bid auction platform on Stacks"
+authors = ["giwaov"]
+telemetry = false
+cache_dir = "./.cache"
+
+[contracts.blind-auction]
+path = "contracts/blind-auction.clar"
