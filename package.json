@@ -1,5 +1,5 @@
 {
-  "name": "stacks-blind-auction",
+  "name": "@stacksnpmv/stacks-blind-auction",
   "version": "1.0.0",
   "private": true,
   "scripts": {
